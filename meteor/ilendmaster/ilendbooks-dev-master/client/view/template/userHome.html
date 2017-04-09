@@ -1,0 +1,24 @@
+<template name="userHome">
+   <link href="css/simple-sidebar.css" rel="stylesheet">
+   {{> navigation}}
+   <div id="wrapper">
+      {{> sideNavBar}}
+<!--       <div id="page-content-wrapper">
+         <div class="container-fluid">
+            <div class="row">
+               <div class="container">
+                  <form name="myForm" class="Insert">
+                     Title   :<br>
+                     <input type="text" name="title" placeholder="Title" required><br>
+                     Author   :<br>
+                     <input type="text" name="author"  placeholder="Author" required><br>
+                     <br>
+                     <input type="submit" placeholder="Search">
+                  </form>
+               </div>
+            </div>
+         </div>
+      </div> -->
+      {{> keywordSearch}}
+   </div>
+</template>
